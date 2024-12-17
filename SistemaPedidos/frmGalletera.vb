@@ -9,7 +9,7 @@
         pictureBox.SizeMode = PictureBoxSizeMode.StretchImage  ' Hace que el GIF se ajuste al tamaño del PictureBox
 
         ' Ruta del archivo GIF
-        Dim rutaGif As String = "C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Imagenes\Galletera.gif"
+        Dim rutaGif As String = "E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Imagenes\Galletera.gif"
 
         ' Cargar el GIF desde la ruta
         pictureBox.Image = Image.FromFile(rutaGif)

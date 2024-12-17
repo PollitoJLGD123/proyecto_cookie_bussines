@@ -53,3 +53,17 @@ C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\De
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.xml
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.AssemblyReference.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmEditarProducto.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmGalletera.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmListaDeProductos.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmNuevoIngrediente.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.FrmRegistrarPedido.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProduccion.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProducto.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Resources.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.GenerateResource.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.CoreCompileInputs.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb

@@ -63,7 +63,7 @@ Public Class frmRegistrarProduccion
 
         ' Mostrar los ingredientes en lstIngredientes
         lstIngredientes.Items.Clear()
-        Dim costoTotal As Decimal = 0
+        Dim costoTotal As Decimal
 
         For Each row As DataRow In dtReceta.Rows
             Dim ingrediente As String = row("Ingrediente").ToString()

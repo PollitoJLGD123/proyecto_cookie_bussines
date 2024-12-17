@@ -50,200 +50,226 @@ Partial Class frmRegistrarProduccion
         'cmbPedidos
         '
         Me.cmbPedidos.FormattingEnabled = True
-        Me.cmbPedidos.Location = New System.Drawing.Point(36, 37)
+        Me.cmbPedidos.Location = New System.Drawing.Point(48, 46)
+        Me.cmbPedidos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbPedidos.Name = "cmbPedidos"
-        Me.cmbPedidos.Size = New System.Drawing.Size(161, 21)
+        Me.cmbPedidos.Size = New System.Drawing.Size(213, 24)
         Me.cmbPedidos.TabIndex = 0
         '
         'cmbProductos
         '
         Me.cmbProductos.FormattingEnabled = True
-        Me.cmbProductos.Location = New System.Drawing.Point(254, 37)
+        Me.cmbProductos.Location = New System.Drawing.Point(339, 46)
+        Me.cmbProductos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbProductos.Name = "cmbProductos"
-        Me.cmbProductos.Size = New System.Drawing.Size(176, 21)
+        Me.cmbProductos.Size = New System.Drawing.Size(233, 24)
         Me.cmbProductos.TabIndex = 1
         '
         'txtCliente
         '
-        Me.txtCliente.Location = New System.Drawing.Point(36, 104)
+        Me.txtCliente.Location = New System.Drawing.Point(48, 128)
+        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCliente.Name = "txtCliente"
-        Me.txtCliente.Size = New System.Drawing.Size(185, 20)
+        Me.txtCliente.Size = New System.Drawing.Size(245, 22)
         Me.txtCliente.TabIndex = 2
         '
         'txtCantidadPedida
         '
-        Me.txtCantidadPedida.Location = New System.Drawing.Point(254, 104)
+        Me.txtCantidadPedida.Location = New System.Drawing.Point(339, 128)
+        Me.txtCantidadPedida.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCantidadPedida.Name = "txtCantidadPedida"
-        Me.txtCantidadPedida.Size = New System.Drawing.Size(100, 20)
+        Me.txtCantidadPedida.Size = New System.Drawing.Size(132, 22)
         Me.txtCantidadPedida.TabIndex = 3
         '
         'txtCostoUnitario
         '
-        Me.txtCostoUnitario.Location = New System.Drawing.Point(36, 323)
+        Me.txtCostoUnitario.Location = New System.Drawing.Point(48, 398)
+        Me.txtCostoUnitario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCostoUnitario.Name = "txtCostoUnitario"
-        Me.txtCostoUnitario.Size = New System.Drawing.Size(100, 20)
+        Me.txtCostoUnitario.Size = New System.Drawing.Size(132, 22)
         Me.txtCostoUnitario.TabIndex = 4
         '
         'txtCostoProduccion
         '
-        Me.txtCostoProduccion.Location = New System.Drawing.Point(158, 417)
+        Me.txtCostoProduccion.Location = New System.Drawing.Point(211, 513)
+        Me.txtCostoProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtCostoProduccion.Name = "txtCostoProduccion"
-        Me.txtCostoProduccion.Size = New System.Drawing.Size(100, 20)
+        Me.txtCostoProduccion.Size = New System.Drawing.Size(132, 22)
         Me.txtCostoProduccion.TabIndex = 5
         '
         'lstIngredientes
         '
         Me.lstIngredientes.FormattingEnabled = True
-        Me.lstIngredientes.Location = New System.Drawing.Point(12, 156)
+        Me.lstIngredientes.ItemHeight = 16
+        Me.lstIngredientes.Location = New System.Drawing.Point(16, 192)
+        Me.lstIngredientes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lstIngredientes.Name = "lstIngredientes"
-        Me.lstIngredientes.Size = New System.Drawing.Size(482, 134)
+        Me.lstIngredientes.Size = New System.Drawing.Size(830, 164)
         Me.lstIngredientes.TabIndex = 6
         '
         'lstEmpleados
         '
         Me.lstEmpleados.FormattingEnabled = True
-        Me.lstEmpleados.Location = New System.Drawing.Point(607, 37)
+        Me.lstEmpleados.ItemHeight = 16
+        Me.lstEmpleados.Location = New System.Drawing.Point(854, 46)
+        Me.lstEmpleados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lstEmpleados.Name = "lstEmpleados"
-        Me.lstEmpleados.Size = New System.Drawing.Size(176, 212)
+        Me.lstEmpleados.Size = New System.Drawing.Size(233, 260)
         Me.lstEmpleados.TabIndex = 7
         '
         'lstEmpleadosAsignados
         '
         Me.lstEmpleadosAsignados.FormattingEnabled = True
-        Me.lstEmpleadosAsignados.Location = New System.Drawing.Point(598, 364)
+        Me.lstEmpleadosAsignados.ItemHeight = 16
+        Me.lstEmpleadosAsignados.Location = New System.Drawing.Point(797, 448)
+        Me.lstEmpleadosAsignados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.lstEmpleadosAsignados.Name = "lstEmpleadosAsignados"
-        Me.lstEmpleadosAsignados.Size = New System.Drawing.Size(193, 108)
+        Me.lstEmpleadosAsignados.Size = New System.Drawing.Size(256, 132)
         Me.lstEmpleadosAsignados.TabIndex = 8
         '
         'btnComenzarProduccion
         '
-        Me.btnComenzarProduccion.Location = New System.Drawing.Point(455, 57)
+        Me.btnComenzarProduccion.Location = New System.Drawing.Point(607, 70)
+        Me.btnComenzarProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnComenzarProduccion.Name = "btnComenzarProduccion"
-        Me.btnComenzarProduccion.Size = New System.Drawing.Size(121, 52)
+        Me.btnComenzarProduccion.Size = New System.Drawing.Size(161, 64)
         Me.btnComenzarProduccion.TabIndex = 9
         Me.btnComenzarProduccion.Text = "Cargar Receta"
         Me.btnComenzarProduccion.UseVisualStyleBackColor = True
         '
         'btnCalcularCosto
         '
-        Me.btnCalcularCosto.Location = New System.Drawing.Point(217, 323)
+        Me.btnCalcularCosto.Location = New System.Drawing.Point(289, 398)
+        Me.btnCalcularCosto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCalcularCosto.Name = "btnCalcularCosto"
-        Me.btnCalcularCosto.Size = New System.Drawing.Size(90, 48)
+        Me.btnCalcularCosto.Size = New System.Drawing.Size(120, 59)
         Me.btnCalcularCosto.TabIndex = 10
         Me.btnCalcularCosto.Text = "Calcular Costo Total"
         Me.btnCalcularCosto.UseVisualStyleBackColor = True
         '
         'btnAsignarEmpleados
         '
-        Me.btnAsignarEmpleados.Location = New System.Drawing.Point(627, 285)
+        Me.btnAsignarEmpleados.Location = New System.Drawing.Point(890, 325)
+        Me.btnAsignarEmpleados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnAsignarEmpleados.Name = "btnAsignarEmpleados"
-        Me.btnAsignarEmpleados.Size = New System.Drawing.Size(141, 56)
+        Me.btnAsignarEmpleados.Size = New System.Drawing.Size(188, 69)
         Me.btnAsignarEmpleados.TabIndex = 11
         Me.btnAsignarEmpleados.Text = "Asignar Empleado"
         Me.btnAsignarEmpleados.UseVisualStyleBackColor = True
         '
         'btnRegistrarHoja
         '
-        Me.btnRegistrarHoja.Location = New System.Drawing.Point(715, 504)
+        Me.btnRegistrarHoja.Location = New System.Drawing.Point(953, 620)
+        Me.btnRegistrarHoja.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnRegistrarHoja.Name = "btnRegistrarHoja"
-        Me.btnRegistrarHoja.Size = New System.Drawing.Size(94, 41)
+        Me.btnRegistrarHoja.Size = New System.Drawing.Size(125, 50)
         Me.btnRegistrarHoja.TabIndex = 12
         Me.btnRegistrarHoja.Text = "Registrar Hoja de Produccion"
         Me.btnRegistrarHoja.UseVisualStyleBackColor = True
         '
         'dtpFechaProduccion
         '
-        Me.dtpFechaProduccion.Location = New System.Drawing.Point(343, 414)
+        Me.dtpFechaProduccion.Location = New System.Drawing.Point(457, 510)
+        Me.dtpFechaProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtpFechaProduccion.Name = "dtpFechaProduccion"
-        Me.dtpFechaProduccion.Size = New System.Drawing.Size(218, 20)
+        Me.dtpFechaProduccion.Size = New System.Drawing.Size(289, 22)
         Me.dtpFechaProduccion.TabIndex = 13
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(33, 21)
+        Me.Label1.Location = New System.Drawing.Point(44, 26)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(136, 13)
+        Me.Label1.Size = New System.Drawing.Size(172, 16)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Lista de Pedidos por Fecha"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(251, 21)
+        Me.Label2.Location = New System.Drawing.Point(335, 26)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(153, 13)
+        Me.Label2.Size = New System.Drawing.Size(196, 16)
         Me.Label2.TabIndex = 15
         Me.Label2.Text = "Productos Asignados al pedido"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(33, 88)
+        Me.Label3.Location = New System.Drawing.Point(44, 108)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(96, 13)
+        Me.Label3.Size = New System.Drawing.Size(122, 16)
         Me.Label3.TabIndex = 16
         Me.Label3.Text = "Nombre del Cliente"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(255, 88)
+        Me.Label4.Location = New System.Drawing.Point(340, 108)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(85, 13)
+        Me.Label4.Size = New System.Drawing.Size(108, 16)
         Me.Label4.TabIndex = 17
         Me.Label4.Text = "Cantidad Pedida"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 140)
+        Me.Label5.Location = New System.Drawing.Point(16, 172)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(164, 13)
+        Me.Label5.Size = New System.Drawing.Size(205, 16)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Lista de Ingredientes de la receta"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(604, 21)
+        Me.Label6.Location = New System.Drawing.Point(851, 26)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(121, 13)
+        Me.Label6.Size = New System.Drawing.Size(154, 16)
         Me.Label6.TabIndex = 19
         Me.Label6.Text = "Lista total de empleados"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(595, 348)
+        Me.Label7.Location = New System.Drawing.Point(793, 428)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(199, 13)
+        Me.Label7.Size = New System.Drawing.Size(255, 16)
         Me.Label7.TabIndex = 20
         Me.Label7.Text = "Empleados Asignados a esta produccion"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(23, 420)
+        Me.Label8.Location = New System.Drawing.Point(31, 517)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(129, 13)
+        Me.Label8.Size = New System.Drawing.Size(160, 16)
         Me.Label8.TabIndex = 21
         Me.Label8.Text = "Costo total de Produccion"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(12, 307)
+        Me.Label9.Location = New System.Drawing.Point(16, 378)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(142, 13)
+        Me.Label9.Size = New System.Drawing.Size(177, 16)
         Me.Label9.TabIndex = 22
         Me.Label9.Text = "Costo de produccion unitario"
         '
         'frmRegistrarProduccion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(833, 572)
+        Me.ClientSize = New System.Drawing.Size(1111, 704)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -267,6 +293,7 @@ Partial Class frmRegistrarProduccion
         Me.Controls.Add(Me.txtCliente)
         Me.Controls.Add(Me.cmbProductos)
         Me.Controls.Add(Me.cmbPedidos)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmRegistrarProduccion"
         Me.Text = "frmProduccion"
         Me.ResumeLayout(False)

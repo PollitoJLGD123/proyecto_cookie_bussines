@@ -94,13 +94,10 @@ Public Class frmEditarProducto
 
             ProductoLN.EliminarReceta(IdProducto)
             ' Actualizar el producto
-            ProductoLN.ActualizarProducto(IdProducto, nuevoNombre, nuevaDescripcion)
-
-            ' Actualizar la receta del producto
 
             ProductoLN.ActualizarReceta(IdProducto, NuevaReceta)
 
-
+            ' huevo sal harina proudcto (1)
 
             MessageBox.Show("Producto y receta actualizados con éxito.")
             Me.Close()

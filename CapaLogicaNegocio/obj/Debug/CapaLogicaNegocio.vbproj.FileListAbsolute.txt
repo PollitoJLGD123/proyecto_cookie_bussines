@@ -31,3 +31,10 @@ C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaLogicaNegocio\obj
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.xml
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.vbproj.AssemblyReference.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.Resources.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.vbproj.GenerateResource.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.vbproj.CoreCompileInputs.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb

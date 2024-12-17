@@ -45,19 +45,25 @@ Public Class FrmRegistrarPedido
             Return
         End If
 
-        Dim cliente As String = txtCliente.Text
+        Dim nombre As String = txtCliente.Text
         Dim fechaPedido As Date = dtpFechaPedido.Value
+        Dim Apellidos As String = txtApellidos.Text
+        Dim DNI As String = txtDNI.Text
 
-        Try
-            Dim idPedido As Integer = PedidoLN.InsertarPedido(cliente, fechaPedido)
+        If nombre = "" Or Apellidos = "" Or DNI = "" Then
+            MessageBox.Show("Ingrese datos por favor")
+        Else
+            Try
+                Dim idPedido As Integer = PedidoLN.InsertarPedido(fechaPedido, nombre, Apellidos, DNI)
 
-            For Each detalle In detalles
-                PedidoLN.InsertarProductoPorPedido(idPedido, detalle.Item1, detalle.Item3)
-            Next
+                For Each detalle In detalles
+                    PedidoLN.InsertarProductoPorPedido(idPedido, detalle.Item1, detalle.Item3)
+                Next
 
-            MessageBox.Show("Pedido registrado con éxito")
-        Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message)
-        End Try
+                MessageBox.Show("Pedido registrado con éxito")
+            Catch ex As Exception
+                MessageBox.Show("Error: " & ex.Message)
+            End Try
+        End If
     End Sub
 End Class

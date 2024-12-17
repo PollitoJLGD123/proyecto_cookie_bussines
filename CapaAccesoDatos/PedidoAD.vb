@@ -2,13 +2,15 @@
 Imports Entidad
 
 Public Class PedidoAD
-    Public Shared Function InsertarPedido(ByVal cliente As String, ByVal fechaPedido As Date) As Integer
+    Public Shared Function InsertarPedido(ByVal fechaPedido As Date, ByVal nombre As String, ByVal apellido As String, ByVal dni As String) As Integer
         Dim cn As New SqlConnection("server=.; integrated security=true; database=Galletera")
         Dim cmd As New SqlCommand("sp_InsertarPedido", cn)
         cmd.CommandType = CommandType.StoredProcedure
 
-        cmd.Parameters.AddWithValue("@Cliente", cliente)
         cmd.Parameters.AddWithValue("@FechaPedido", fechaPedido)
+        cmd.Parameters.AddWithValue("@nombre", nombre)
+        cmd.Parameters.AddWithValue("@apellido", apellido)
+        cmd.Parameters.AddWithValue("@dni", dni)
         cmd.Parameters.Add("@IdPedido", SqlDbType.Int).Direction = ParameterDirection.Output
 
         Try
