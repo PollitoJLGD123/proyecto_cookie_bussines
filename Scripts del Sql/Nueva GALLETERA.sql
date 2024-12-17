@@ -1,4 +1,4 @@
--- Crear la base de datos (si a鷑 no existe)
+-- Crear la base de datos (si a煤n no existe)
 CREATE DATABASE Galletera;
 GO
 
@@ -58,7 +58,7 @@ CREATE TABLE Pedidos (
 GO
 
 
--- Tabla de Productos por Pedido (relaci髇 muchos a muchos)
+-- Tabla de Productos por Pedido (relaci贸n muchos a muchos)
 CREATE TABLE ProductosPorPedido (
     id_pedido INT,
     id_producto INT,
@@ -69,19 +69,16 @@ CREATE TABLE ProductosPorPedido (
 );
 GO
 
--- Tabla de Producci髇 (Hoja de Producci髇)
+-- Tabla de Producci贸n (Hoja de Producci贸n)
 CREATE TABLE Produccion (
     id_produccion INT IDENTITY(1,1) PRIMARY KEY,
-    id_producto INT,
-    cantidad DECIMAL(10, 2) NOT NULL,
     fecha DATE NOT NULL,
     id_pedido INT,
-    FOREIGN KEY (id_producto) REFERENCES Productos(id_producto),
     FOREIGN KEY (id_pedido) REFERENCES Pedidos(id_pedido)
 );
 GO
 
--- Tabla de Empleados por Producci髇 (relaci髇 muchos a muchos)
+-- Tabla de Empleados por Producci贸n (relaci贸n muchos a muchos)
 CREATE TABLE EmpleadosPorProduccion (
     id_produccion INT,
     id_empleado INT,
