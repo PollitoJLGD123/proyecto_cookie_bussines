@@ -69,7 +69,7 @@ BEGIN
         INSERT INTO Productos (nombre, descripcion)
         VALUES (@Nombre, @Descripcion);
 
-        -- Obtener el ID del producto recién insertado
+        -- Obtener el ID del producto reciÃ©n insertado
         SET @IdProducto = SCOPE_IDENTITY();
     END TRY
     BEGIN CATCH
@@ -118,7 +118,7 @@ BEGIN
         INSERT INTO Ingredientes (nombre, precio_unitario)
         VALUES (@Nombre, @PrecioUnitario);
 
-        -- Obtener el ID del ingrediente recién insertado
+        -- Obtener el ID del ingrediente reciÃ©n insertado
         SET @IdMaterial = SCOPE_IDENTITY();
     END TRY
     BEGIN CATCH
@@ -331,10 +331,68 @@ BEGIN
     CLOSE receta_cursor;
     DEALLOCATE receta_cursor;
 
-    -- Paso 3: Ajustar el contador de IDs para que el próximo ID continúe correctamente
+    -- Paso 3: Ajustar el contador de IDs para que el prÃ³ximo ID continÃºe correctamente
     DBCC CHECKIDENT ('Recetas', RESEED);
 END;
 
+CREATE PROCEDURE sp_ClientePorPedido
+    @id_pedido INT
+AS
+BEGIN
+    SELECT 
+        p.id_pedido,
+        c.id_cliente,
+        c.nombre AS nombre_cliente,
+        c.apellidos AS apellido_cliente,
+        c.dni AS dni_cliente
+    FROM 
+        Pedidos p
+    INNER JOIN Cliente c ON p.id_cliente = c.id_cliente
+    WHERE 
+        p.id_pedido = @id_pedido;
+END;
+GO
+
+
+CREATE PROCEDURE sp_ProductosPorPedido
+    @id_pedido INT
+AS
+BEGIN
+    SELECT 
+        p.id_pedido,
+        pr.id_producto,
+        pr.nombre AS nombre_producto,
+        pxp.cantidad AS cantidad_producto
+    FROM 
+        Pedidos p
+    INNER JOIN ProductosPorPedido pxp ON p.id_pedido = pxp.id_pedido
+    INNER JOIN Productos pr ON pxp.id_producto = pr.id_producto
+    WHERE 
+        p.id_pedido = @id_pedido;
+END;
+GO
+
+
+
+CREATE PROCEDURE sp_EmpleadosPorPedido
+    @id_pedido INT
+AS
+BEGIN
+    SELECT 
+        p.id_pedido,
+        e.id_empleado,
+        e.nombre AS nombre_empleado,
+        e.apellidos AS apellido_empleado,
+        prod.fecha AS fecha_produccion
+    FROM 
+        Pedidos p
+    INNER JOIN Produccion prod ON p.id_pedido = prod.id_pedido
+    INNER JOIN EmpleadosPorProduccion epp ON prod.id_produccion = epp.id_produccion
+    INNER JOIN Empleados e ON epp.id_empleado = e.id_empleado
+    WHERE 
+        p.id_pedido = @id_pedido;
+END;
+GO
 
 --ESTO LO QUITAS PERO ES PARA ACTUALIZAR las tablas
 DELETE FROM Recetas WHERE id_receta = 70;
