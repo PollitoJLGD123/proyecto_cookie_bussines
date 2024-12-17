@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmregistrarpedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmregistrarpedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmeditarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmeditarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmeditarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmeditarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmregistrarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmregistrarproducto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmregistrarproduccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmregistrarproduccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmnuevoingrediente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmnuevoingrediente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmlistadeproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmlistadeproductos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C1CE8E-1A82-4A2B-B0C1-1360CC3DAD73}|CapaAccesoDatos\\CapaAccesoDatos.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\capaaccesodatos\\productoad.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C0C1CE8E-1A82-4A2B-B0C1-1360CC3DAD73}|CapaAccesoDatos\\CapaAccesoDatos.vbproj|solutionrelative:capaaccesodatos\\productoad.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1D5FCE-7383-459E-BE2D-14395CBF6B21}|Entidad\\CapaEntidad.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\entidad\\pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9F1D5FCE-7383-459E-BE2D-14395CBF6B21}|Entidad\\CapaEntidad.vbproj|solutionrelative:entidad\\pedido.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1D5FCE-7383-459E-BE2D-14395CBF6B21}|Entidad\\CapaEntidad.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\entidad\\producto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9F1D5FCE-7383-459E-BE2D-14395CBF6B21}|Entidad\\CapaEntidad.vbproj|solutionrelative:entidad\\producto.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\sistemapedidos\\frmgalletera.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B842DC47-F2EA-4359-9340-29C98B662464}|SistemaPedidos\\CapaPresentacion.vbproj|solutionrelative:sistemapedidos\\frmgalletera.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6545A30D-8624-4907-A97D-44745DEE0D04}|CapaLogicaNegocio\\CapaLogicaNegocio.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\capalogicanegocio\\productoln.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6545A30D-8624-4907-A97D-44745DEE0D04}|CapaLogicaNegocio\\CapaLogicaNegocio.vbproj|solutionrelative:capalogicanegocio\\productoln.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C1CE8E-1A82-4A2B-B0C1-1360CC3DAD73}|CapaAccesoDatos\\CapaAccesoDatos.vbproj|c:\\users\\jose luis\\downloads\\sistemapedidos\\sistemapedidos\\capaaccesodatos\\ingredientead.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C0C1CE8E-1A82-4A2B-B0C1-1360CC3DAD73}|CapaAccesoDatos\\CapaAccesoDatos.vbproj|solutionrelative:capaaccesodatos\\ingredientead.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEditarProducto.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmEditarProducto.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmEditarProducto.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmEditarProducto.vb",
+              "RelativeToolTip": "SistemaPedidos\\frmEditarProducto.vb",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwEUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:36:28.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmRegistrarProducto.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmRegistrarProducto.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmRegistrarProducto.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmRegistrarProducto.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\frmRegistrarProducto.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:13:30.023Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEditarProducto.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmEditarProducto.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmEditarProducto.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmEditarProducto.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\frmEditarProducto.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:03:24.384Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRegistrarPedido.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\FrmRegistrarPedido.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\FrmRegistrarPedido.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\FrmRegistrarPedido.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\FrmRegistrarPedido.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:36:11.871Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmRegistrarProduccion.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmRegistrarProduccion.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmRegistrarProduccion.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmRegistrarProduccion.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\frmRegistrarProduccion.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:36:14.161Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmNuevoIngrediente.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmNuevoIngrediente.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmNuevoIngrediente.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmNuevoIngrediente.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\frmNuevoIngrediente.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:36:18.356Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmListaDeProductos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmListaDeProductos.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmListaDeProductos.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmListaDeProductos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaPedidos\\frmListaDeProductos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:36:16.308Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductoAD.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaAccesoDatos\\ProductoAD.vb",
+              "RelativeDocumentMoniker": "CapaAccesoDatos\\ProductoAD.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaAccesoDatos\\ProductoAD.vb",
+              "RelativeToolTip": "CapaAccesoDatos\\ProductoAD.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:35:28.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pedido.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\Entidad\\Pedido.vb",
+              "RelativeDocumentMoniker": "Entidad\\Pedido.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\Entidad\\Pedido.vb",
+              "RelativeToolTip": "Entidad\\Pedido.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:35:18.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Producto.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\Entidad\\Producto.vb",
+              "RelativeDocumentMoniker": "Entidad\\Producto.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\Entidad\\Producto.vb",
+              "RelativeToolTip": "Entidad\\Producto.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:34:59.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoLN.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaLogicaNegocio\\ProductoLN.vb",
+              "RelativeDocumentMoniker": "CapaLogicaNegocio\\ProductoLN.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaLogicaNegocio\\ProductoLN.vb",
+              "RelativeToolTip": "CapaLogicaNegocio\\ProductoLN.vb",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:13:22.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmGalletera.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmGalletera.vb",
+              "RelativeDocumentMoniker": "SistemaPedidos\\frmGalletera.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\SistemaPedidos\\frmGalletera.vb",
+              "RelativeToolTip": "SistemaPedidos\\frmGalletera.vb",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:03:41.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IngredienteAD.vb",
+              "DocumentMoniker": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaAccesoDatos\\IngredienteAD.vb",
+              "RelativeDocumentMoniker": "CapaAccesoDatos\\IngredienteAD.vb",
+              "ToolTip": "C:\\Users\\Jose Luis\\Downloads\\SistemaPedidos\\SistemaPedidos\\CapaAccesoDatos\\IngredienteAD.vb",
+              "RelativeToolTip": "CapaAccesoDatos\\IngredienteAD.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-17T04:01:45.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

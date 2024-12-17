@@ -1,0 +1,55 @@
+c:\users\usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmNuevoIngrediente.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.FrmRegistrarPedido.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProduccion.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProducto.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmEditarProducto.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmListaDeProductos.resources
+C:\Users\Usuario\documents\visual studio 2015\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmGalletera.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaLogicaNegocio.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\Entidad.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\bin\Debug\CapaAccesoDatos.dll.config
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.AssemblyReference.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmEditarProducto.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmGalletera.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmListaDeProductos.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmNuevoIngrediente.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.FrmRegistrarPedido.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProduccion.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.frmRegistrarProducto.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Resources.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.GenerateResource.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPresentacion.vbproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\CapaPres.2A98DD23.Up2Date
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb

@@ -1,0 +1,28 @@
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.AssemblyReference.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAcce.18E8DF61.Up2Date
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

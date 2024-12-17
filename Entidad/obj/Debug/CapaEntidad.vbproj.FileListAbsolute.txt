@@ -1,0 +1,19 @@
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\bin\Debug\Entidad.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\bin\Debug\Entidad.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\Entidad.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\Entidad.dll
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\Entidad.xml
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\SistemaPedidos\Entidad\obj\Debug\Entidad.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\bin\Debug\Entidad.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\bin\Debug\Entidad.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.AssemblyReference.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.Resources.resources
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.dll
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.xml
+C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.pdb
