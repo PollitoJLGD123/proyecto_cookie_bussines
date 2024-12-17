@@ -1,4 +1,5 @@
 ﻿Imports CapaLogicaNegocio
+Imports Entidad
 Public Class FrmRegistrarPedido
     Private detalles As New List(Of Tuple(Of Integer, String, Decimal))
 
@@ -27,7 +28,15 @@ Public Class FrmRegistrarPedido
             Return
         End If
 
-        detalles.Add(New Tuple(Of Integer, String, Decimal)(idProducto, nombreProducto, cantidad))
+        Dim productoExistente = detalles.FirstOrDefault(Function(p) p.Item1 = idProducto)
+
+        If productoExistente IsNot Nothing Then
+            detalles.Remove(productoExistente)
+            detalles.Add(New Tuple(Of Integer, String, Decimal)(idProducto, nombreProducto, productoExistente.Item3 + cantidad))
+        Else
+            detalles.Add(New Tuple(Of Integer, String, Decimal)(idProducto, nombreProducto, cantidad))
+        End If
+
         ActualizarListaDetalle()
     End Sub
 
@@ -40,8 +49,8 @@ Public Class FrmRegistrarPedido
     End Sub
 
     Private Sub btnRegistrarPedido_Click(sender As Object, e As EventArgs) Handles btnRegistrarPedido.Click
-        If detalles.Count = 0 Then
-            MessageBox.Show("Agregue al menos un producto al pedido")
+        If lstProductos.SelectedItem Is Nothing Then
+            MessageBox.Show("Seleccione un producto")
             Return
         End If
 
@@ -65,5 +74,29 @@ Public Class FrmRegistrarPedido
                 MessageBox.Show("Error: " & ex.Message)
             End Try
         End If
+    End Sub
+
+    Private Sub txtEliminar_Click(sender As Object, e As EventArgs) Handles txtEliminar.Click
+
+        If lstDetallePedido.SelectedItem Is Nothing Then
+            MessageBox.Show("Seleccione un producto que quieres eliminar")
+            Return
+        End If
+
+
+        Dim productoSeleccionado As String = lstDetallePedido.SelectedItem.ToString()
+        Dim idProducto As Integer = Convert.ToInt32(productoSeleccionado.Split("-")(0).Trim())
+        Dim nombreProducto As String = productoSeleccionado.Split("-")(1).Trim()
+        Dim cantidad As Decimal = productoSeleccionado.Split("-")(2).Trim()
+
+        Dim tuplaAEliminar As Tuple(Of Integer, String, Decimal) = Tuple.Create(idProducto, nombreProducto, cantidad)
+
+        detalles.Remove(tuplaAEliminar)
+        ActualizarListaDetalle()
+
+    End Sub
+
+    Private Sub lstDetallePedido_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstDetallePedido.SelectedIndexChanged
+
     End Sub
 End Class

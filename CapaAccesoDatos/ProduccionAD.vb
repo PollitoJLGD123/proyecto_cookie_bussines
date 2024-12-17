@@ -61,12 +61,10 @@ Public Class ProduccionAD
     End Function
 
     ' Registrar producción
-    Public Shared Function RegistrarProduccion(ByVal idProducto As Integer, ByVal cantidad As Decimal, ByVal fecha As Date, ByVal idPedido As Integer) As Integer
+    Public Shared Function RegistrarProduccion(ByVal fecha As Date, ByVal idPedido As Integer) As Integer
         Dim cn As New SqlConnection("server=.; integrated security=true; database=Galletera")
         Dim cmd As New SqlCommand("sp_RegistrarProduccion", cn)
         cmd.CommandType = CommandType.StoredProcedure
-        cmd.Parameters.AddWithValue("@IdProducto", idProducto)
-        cmd.Parameters.AddWithValue("@CantidadProduccion", cantidad)
         cmd.Parameters.AddWithValue("@Fecha", fecha)
         cmd.Parameters.AddWithValue("@IdPedido", idPedido)
         cmd.Parameters.Add("@IdProduccion", SqlDbType.Int).Direction = ParameterDirection.Output

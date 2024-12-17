@@ -4,31 +4,26 @@ go
 
 --PRIMER FORMULARIO FRM PEDIDOS
 --INSERTAR UN PEDIDO
-CREATE PROCEDURE sp_InsertarPedido
-    @Cliente VARCHAR(100),
+CREATE or ALTER PROCEDURE sp_InsertarPedido
     @FechaPedido DATE,
-    @IdPedido INT OUTPUT
+    @IdPedido INT OUTPUT,
+	@nombre varchar(100),
+	@apellido varchar(100),
+	@dni char(8)
 AS
 BEGIN
-    SET NOCOUNT ON;
+	declare @IdCliente int;
 
-    BEGIN TRY
-        INSERT INTO Pedidos (cliente, fecha_pedido)
-        VALUES (@Cliente, @FechaPedido);
+	INSERT INTO Cliente(nombre,apellidos,dni)
+	VALUES (@nombre,@apellido,@dni)
 
-        -- Capturar el ID del pedido generado automáticamente
-        SET @IdPedido = SCOPE_IDENTITY();
-    END TRY
-    BEGIN CATCH
-        THROW;
-    END CATCH
-END;
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
+	SET @IdCliente = SCOPE_IDENTITY();
 
+    INSERT INTO Pedidos (id_cliente, fecha_pedido)
+    VALUES (@IdCliente, @FechaPedido);
+
+	SET @IdPedido = SCOPE_IDENTITY();
+END
 
 
 CREATE PROCEDURE sp_InsertarProductosPorPedido
@@ -48,6 +43,7 @@ BEGIN
     END CATCH
 END;
 
+
 CREATE PROCEDURE sp_ListarProductos
 AS
 BEGIN
@@ -58,9 +54,6 @@ BEGIN
 END;
 
 
-select*from Pedidos
-
-select*from ProductosPorPedido
 
 --SEGUNDO FORMULARIO FRMPRODUCTO
 
@@ -133,9 +126,6 @@ BEGIN
     END CATCH
 END;
 
-select*from Productos
-select*from Recetas
-select*from Ingredientes
 
 
 --tercer Formulario FRMPRODUCCION
@@ -150,6 +140,7 @@ BEGIN
     FROM Pedidos;
 END;
 
+
 --Obtener datos del pedido 
 CREATE PROCEDURE sp_ObtenerPedidoPorId
     @IdPedido INT
@@ -157,8 +148,8 @@ AS
 BEGIN
     SET NOCOUNT ON;
 
-    SELECT cliente 
-    FROM Pedidos 
+    SELECT C.nombre + ' ' + C.apellidos as [nombre] 
+    FROM Pedidos P INNER JOIN Cliente C ON C.id_cliente = P.id_cliente 
     WHERE id_pedido = @IdPedido;
 
     SELECT p.id_producto, p.nombre, pp.cantidad 
@@ -166,9 +157,6 @@ BEGIN
     INNER JOIN ProductosPorPedido pp ON p.id_producto = pp.id_producto
     WHERE pp.id_pedido = @IdPedido;
 END;
--- CAMBIASOOOOOOOOOOOOOOOOOOOOOOOOOO
-
-
 
 
 --Obtener receta del producto
@@ -198,13 +186,11 @@ BEGIN
         puesto, 
         fecha_ingreso
     FROM Empleados;
-END;
+END
 
 
 --Registrar Hoja de Produccion
 CREATE PROCEDURE sp_RegistrarProduccion
-    @IdProducto INT,
-    @CantidadProduccion DECIMAL(10, 2),
     @Fecha DATE,
     @IdPedido INT,
     @IdProduccion INT OUTPUT
@@ -213,8 +199,8 @@ BEGIN
     SET NOCOUNT ON;
 
     BEGIN TRY
-        INSERT INTO Produccion (id_producto, cantidad, fecha, id_pedido)
-        VALUES (@IdProducto, @CantidadProduccion, @Fecha, @IdPedido);
+        INSERT INTO Produccion (fecha, id_pedido)
+        VALUES (@Fecha, @IdPedido);
 
         SET @IdProduccion = SCOPE_IDENTITY();
     END TRY
@@ -243,13 +229,6 @@ BEGIN
 END;
 
 
-select*from Produccion
-select*from EmpleadosPorProduccion
-
-select*from Pedidos
-select*from ProductosPorPedido
-select*from Productos
-
 --FRMEDITAR PRODUCTOS:
 CREATE PROCEDURE sp_ListarProductos2
 AS
@@ -258,6 +237,7 @@ BEGIN
     SELECT id_producto, nombre
     FROM Productos;
 END;
+
 
 --Detalles del producto y su receta
 CREATE PROCEDURE sp_ObtenerProductoConReceta
@@ -309,9 +289,6 @@ BEGIN
 END;
 
 
-select*from Recetas
-select*from Productos
-
 
 Create PROCEDURE sp_EliminarReceta
     @IdProducto INT
@@ -357,10 +334,6 @@ BEGIN
     -- Paso 3: Ajustar el contador de IDs para que el próximo ID continúe correctamente
     DBCC CHECKIDENT ('Recetas', RESEED);
 END;
-
-
-
-
 
 
 --ESTO LO QUITAS PERO ES PARA ACTUALIZAR las tablas

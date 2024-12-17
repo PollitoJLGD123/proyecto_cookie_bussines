@@ -38,12 +38,13 @@ Partial Class FrmRegistrarPedido
         Me.txtApellidos = New System.Windows.Forms.TextBox()
         Me.txtDNI = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtEliminar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtCliente
         '
         Me.txtCliente.Location = New System.Drawing.Point(127, 54)
-        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCliente.Name = "txtCliente"
         Me.txtCliente.Size = New System.Drawing.Size(289, 22)
         Me.txtCliente.TabIndex = 0
@@ -51,7 +52,7 @@ Partial Class FrmRegistrarPedido
         'txtCantidad
         '
         Me.txtCantidad.Location = New System.Drawing.Point(161, 511)
-        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCantidad.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCantidad.Name = "txtCantidad"
         Me.txtCantidad.Size = New System.Drawing.Size(132, 22)
         Me.txtCantidad.TabIndex = 1
@@ -61,7 +62,7 @@ Partial Class FrmRegistrarPedido
         Me.lstProductos.FormattingEnabled = True
         Me.lstProductos.ItemHeight = 16
         Me.lstProductos.Location = New System.Drawing.Point(13, 237)
-        Me.lstProductos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstProductos.Margin = New System.Windows.Forms.Padding(4)
         Me.lstProductos.Name = "lstProductos"
         Me.lstProductos.Size = New System.Drawing.Size(357, 244)
         Me.lstProductos.TabIndex = 2
@@ -71,7 +72,7 @@ Partial Class FrmRegistrarPedido
         Me.lstDetallePedido.FormattingEnabled = True
         Me.lstDetallePedido.ItemHeight = 16
         Me.lstDetallePedido.Location = New System.Drawing.Point(506, 221)
-        Me.lstDetallePedido.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstDetallePedido.Margin = New System.Windows.Forms.Padding(4)
         Me.lstDetallePedido.Name = "lstDetallePedido"
         Me.lstDetallePedido.Size = New System.Drawing.Size(273, 260)
         Me.lstDetallePedido.TabIndex = 3
@@ -79,7 +80,7 @@ Partial Class FrmRegistrarPedido
         'dtpFechaPedido
         '
         Me.dtpFechaPedido.Location = New System.Drawing.Point(506, 118)
-        Me.dtpFechaPedido.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpFechaPedido.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpFechaPedido.Name = "dtpFechaPedido"
         Me.dtpFechaPedido.Size = New System.Drawing.Size(265, 22)
         Me.dtpFechaPedido.TabIndex = 4
@@ -87,7 +88,7 @@ Partial Class FrmRegistrarPedido
         'btnCargarProductos
         '
         Me.btnCargarProductos.Location = New System.Drawing.Point(378, 237)
-        Me.btnCargarProductos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCargarProductos.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCargarProductos.Name = "btnCargarProductos"
         Me.btnCargarProductos.Size = New System.Drawing.Size(111, 60)
         Me.btnCargarProductos.TabIndex = 5
@@ -96,8 +97,8 @@ Partial Class FrmRegistrarPedido
         '
         'btnAgregarProducto
         '
-        Me.btnAgregarProducto.Location = New System.Drawing.Point(378, 318)
-        Me.btnAgregarProducto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAgregarProducto.Location = New System.Drawing.Point(378, 322)
+        Me.btnAgregarProducto.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregarProducto.Name = "btnAgregarProducto"
         Me.btnAgregarProducto.Size = New System.Drawing.Size(111, 62)
         Me.btnAgregarProducto.TabIndex = 6
@@ -107,7 +108,7 @@ Partial Class FrmRegistrarPedido
         'btnRegistrarPedido
         '
         Me.btnRegistrarPedido.Location = New System.Drawing.Point(594, 496)
-        Me.btnRegistrarPedido.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnRegistrarPedido.Margin = New System.Windows.Forms.Padding(4)
         Me.btnRegistrarPedido.Name = "btnRegistrarPedido"
         Me.btnRegistrarPedido.Size = New System.Drawing.Size(133, 52)
         Me.btnRegistrarPedido.TabIndex = 7
@@ -190,11 +191,22 @@ Partial Class FrmRegistrarPedido
         Me.Label6.TabIndex = 15
         Me.Label6.Text = "Fecha"
         '
+        'txtEliminar
+        '
+        Me.txtEliminar.Location = New System.Drawing.Point(378, 419)
+        Me.txtEliminar.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtEliminar.Name = "txtEliminar"
+        Me.txtEliminar.Size = New System.Drawing.Size(111, 62)
+        Me.txtEliminar.TabIndex = 16
+        Me.txtEliminar.Text = "Eliminar Producto"
+        Me.txtEliminar.UseVisualStyleBackColor = True
+        '
         'FrmRegistrarPedido
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(792, 576)
+        Me.Controls.Add(Me.txtEliminar)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.txtDNI)
         Me.Controls.Add(Me.txtApellidos)
@@ -211,7 +223,7 @@ Partial Class FrmRegistrarPedido
         Me.Controls.Add(Me.lstProductos)
         Me.Controls.Add(Me.txtCantidad)
         Me.Controls.Add(Me.txtCliente)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "FrmRegistrarPedido"
         Me.Text = "FrmPedido"
         Me.ResumeLayout(False)
@@ -235,4 +247,5 @@ Partial Class FrmRegistrarPedido
     Friend WithEvents txtApellidos As TextBox
     Friend WithEvents txtDNI As TextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents txtEliminar As Button
 End Class

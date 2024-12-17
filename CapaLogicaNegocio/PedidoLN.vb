@@ -1,6 +1,6 @@
 ﻿Imports CapaAccesoDatos
 Public Class PedidoLN
-    Public Shared Function InsertarPedido(ByVal fechaPedido As Date, ByVal nombre As String, ByVal apellido As String, ByVal DNI As String, ) As Integer
+    Public Shared Function InsertarPedido(ByVal fechaPedido As Date, ByVal nombre As String, ByVal apellido As String, ByVal DNI As String) As Integer
         Return PedidoAD.InsertarPedido(fechaPedido, nombre, apellido, DNI)
     End Function
 

@@ -26,13 +26,6 @@ C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\D
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.AssemblyReference.cache
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.cache
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.CoreCompileInputs.cache
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
-E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
@@ -40,4 +33,11 @@ E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\Capa
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.dll
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.pdb
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\bin\Debug\Entidad.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.AssemblyReference.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.Resources.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.GenerateResource.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.vbproj.CoreCompileInputs.cache
 E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAcce.18E8DF61.Up2Date
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

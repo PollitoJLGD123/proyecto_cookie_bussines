@@ -12,8 +12,8 @@ Public Class ProduccionLN
         Return ProduccionAD.ObtenerRecetaPorProducto(idProducto)
     End Function
 
-    Public Shared Function RegistrarProduccion(ByVal idProducto As Integer, ByVal cantidad As Decimal, ByVal fecha As Date, ByVal idPedido As Integer) As Integer
-        Return ProduccionAD.RegistrarProduccion(idProducto, cantidad, fecha, idPedido)
+    Public Shared Function RegistrarProduccion(ByVal fecha As Date, ByVal idPedido As Integer) As Integer
+        Return ProduccionAD.RegistrarProduccion(fecha, idPedido)
     End Function
 
     Public Shared Sub AsignarEmpleadoAProduccion(ByVal idProduccion As Integer, ByVal idEmpleado As Integer)

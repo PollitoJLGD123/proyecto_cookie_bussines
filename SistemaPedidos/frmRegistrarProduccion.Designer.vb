@@ -51,7 +51,7 @@ Partial Class frmRegistrarProduccion
         '
         Me.cmbPedidos.FormattingEnabled = True
         Me.cmbPedidos.Location = New System.Drawing.Point(48, 46)
-        Me.cmbPedidos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbPedidos.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbPedidos.Name = "cmbPedidos"
         Me.cmbPedidos.Size = New System.Drawing.Size(213, 24)
         Me.cmbPedidos.TabIndex = 0
@@ -60,39 +60,43 @@ Partial Class frmRegistrarProduccion
         '
         Me.cmbProductos.FormattingEnabled = True
         Me.cmbProductos.Location = New System.Drawing.Point(339, 46)
-        Me.cmbProductos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbProductos.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbProductos.Name = "cmbProductos"
         Me.cmbProductos.Size = New System.Drawing.Size(233, 24)
         Me.cmbProductos.TabIndex = 1
         '
         'txtCliente
         '
+        Me.txtCliente.Enabled = False
         Me.txtCliente.Location = New System.Drawing.Point(48, 128)
-        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCliente.Name = "txtCliente"
         Me.txtCliente.Size = New System.Drawing.Size(245, 22)
         Me.txtCliente.TabIndex = 2
         '
         'txtCantidadPedida
         '
+        Me.txtCantidadPedida.Enabled = False
         Me.txtCantidadPedida.Location = New System.Drawing.Point(339, 128)
-        Me.txtCantidadPedida.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCantidadPedida.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCantidadPedida.Name = "txtCantidadPedida"
         Me.txtCantidadPedida.Size = New System.Drawing.Size(132, 22)
         Me.txtCantidadPedida.TabIndex = 3
         '
         'txtCostoUnitario
         '
+        Me.txtCostoUnitario.Enabled = False
         Me.txtCostoUnitario.Location = New System.Drawing.Point(48, 398)
-        Me.txtCostoUnitario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCostoUnitario.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCostoUnitario.Name = "txtCostoUnitario"
         Me.txtCostoUnitario.Size = New System.Drawing.Size(132, 22)
         Me.txtCostoUnitario.TabIndex = 4
         '
         'txtCostoProduccion
         '
+        Me.txtCostoProduccion.Enabled = False
         Me.txtCostoProduccion.Location = New System.Drawing.Point(211, 513)
-        Me.txtCostoProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtCostoProduccion.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCostoProduccion.Name = "txtCostoProduccion"
         Me.txtCostoProduccion.Size = New System.Drawing.Size(132, 22)
         Me.txtCostoProduccion.TabIndex = 5
@@ -102,7 +106,7 @@ Partial Class frmRegistrarProduccion
         Me.lstIngredientes.FormattingEnabled = True
         Me.lstIngredientes.ItemHeight = 16
         Me.lstIngredientes.Location = New System.Drawing.Point(16, 192)
-        Me.lstIngredientes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstIngredientes.Margin = New System.Windows.Forms.Padding(4)
         Me.lstIngredientes.Name = "lstIngredientes"
         Me.lstIngredientes.Size = New System.Drawing.Size(830, 164)
         Me.lstIngredientes.TabIndex = 6
@@ -112,7 +116,7 @@ Partial Class frmRegistrarProduccion
         Me.lstEmpleados.FormattingEnabled = True
         Me.lstEmpleados.ItemHeight = 16
         Me.lstEmpleados.Location = New System.Drawing.Point(854, 46)
-        Me.lstEmpleados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstEmpleados.Margin = New System.Windows.Forms.Padding(4)
         Me.lstEmpleados.Name = "lstEmpleados"
         Me.lstEmpleados.Size = New System.Drawing.Size(233, 260)
         Me.lstEmpleados.TabIndex = 7
@@ -122,7 +126,7 @@ Partial Class frmRegistrarProduccion
         Me.lstEmpleadosAsignados.FormattingEnabled = True
         Me.lstEmpleadosAsignados.ItemHeight = 16
         Me.lstEmpleadosAsignados.Location = New System.Drawing.Point(797, 448)
-        Me.lstEmpleadosAsignados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lstEmpleadosAsignados.Margin = New System.Windows.Forms.Padding(4)
         Me.lstEmpleadosAsignados.Name = "lstEmpleadosAsignados"
         Me.lstEmpleadosAsignados.Size = New System.Drawing.Size(256, 132)
         Me.lstEmpleadosAsignados.TabIndex = 8
@@ -130,7 +134,7 @@ Partial Class frmRegistrarProduccion
         'btnComenzarProduccion
         '
         Me.btnComenzarProduccion.Location = New System.Drawing.Point(607, 70)
-        Me.btnComenzarProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnComenzarProduccion.Margin = New System.Windows.Forms.Padding(4)
         Me.btnComenzarProduccion.Name = "btnComenzarProduccion"
         Me.btnComenzarProduccion.Size = New System.Drawing.Size(161, 64)
         Me.btnComenzarProduccion.TabIndex = 9
@@ -140,7 +144,7 @@ Partial Class frmRegistrarProduccion
         'btnCalcularCosto
         '
         Me.btnCalcularCosto.Location = New System.Drawing.Point(289, 398)
-        Me.btnCalcularCosto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnCalcularCosto.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCalcularCosto.Name = "btnCalcularCosto"
         Me.btnCalcularCosto.Size = New System.Drawing.Size(120, 59)
         Me.btnCalcularCosto.TabIndex = 10
@@ -150,7 +154,7 @@ Partial Class frmRegistrarProduccion
         'btnAsignarEmpleados
         '
         Me.btnAsignarEmpleados.Location = New System.Drawing.Point(890, 325)
-        Me.btnAsignarEmpleados.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnAsignarEmpleados.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAsignarEmpleados.Name = "btnAsignarEmpleados"
         Me.btnAsignarEmpleados.Size = New System.Drawing.Size(188, 69)
         Me.btnAsignarEmpleados.TabIndex = 11
@@ -160,7 +164,7 @@ Partial Class frmRegistrarProduccion
         'btnRegistrarHoja
         '
         Me.btnRegistrarHoja.Location = New System.Drawing.Point(953, 620)
-        Me.btnRegistrarHoja.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnRegistrarHoja.Margin = New System.Windows.Forms.Padding(4)
         Me.btnRegistrarHoja.Name = "btnRegistrarHoja"
         Me.btnRegistrarHoja.Size = New System.Drawing.Size(125, 50)
         Me.btnRegistrarHoja.TabIndex = 12
@@ -170,7 +174,7 @@ Partial Class frmRegistrarProduccion
         'dtpFechaProduccion
         '
         Me.dtpFechaProduccion.Location = New System.Drawing.Point(457, 510)
-        Me.dtpFechaProduccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dtpFechaProduccion.Margin = New System.Windows.Forms.Padding(4)
         Me.dtpFechaProduccion.Name = "dtpFechaProduccion"
         Me.dtpFechaProduccion.Size = New System.Drawing.Size(289, 22)
         Me.dtpFechaProduccion.TabIndex = 13
@@ -293,7 +297,7 @@ Partial Class frmRegistrarProduccion
         Me.Controls.Add(Me.txtCliente)
         Me.Controls.Add(Me.cmbProductos)
         Me.Controls.Add(Me.cmbPedidos)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmRegistrarProduccion"
         Me.Text = "frmProduccion"
         Me.ResumeLayout(False)

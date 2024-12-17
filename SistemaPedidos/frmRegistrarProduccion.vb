@@ -39,7 +39,7 @@ Public Class frmRegistrarProduccion
             ' Verificar que se obtuvieron datos válidos
             If dsPedido IsNot Nothing AndAlso dsPedido.Tables.Count > 1 Then
                 ' Mostrar el cliente
-                txtCliente.Text = dsPedido.Tables(0).Rows(0)("cliente").ToString()
+                txtCliente.Text = dsPedido.Tables(0).Rows(0)("nombre").ToString()
 
                 ' Cargar los productos relacionados con el pedido en cmbProductos
                 cmbProductos.DataSource = dsPedido.Tables(1)
@@ -122,13 +122,11 @@ Public Class frmRegistrarProduccion
                 Return
             End If
 
-            Dim idProducto As Integer = Convert.ToInt32(cmbProductos.SelectedValue)
-            Dim cantidadProduccion As Decimal = Convert.ToDecimal(txtCantidadPedida.Text)
             Dim fechaProduccion As Date = dtpFechaProduccion.Value
             Dim idPedido As Integer = Convert.ToInt32(cmbPedidos.SelectedValue)
 
             ' Registrar la producción
-            Dim idProduccion As Integer = ProduccionLN.RegistrarProduccion(idProducto, cantidadProduccion, fechaProduccion, idPedido)
+            Dim idProduccion As Integer = ProduccionLN.RegistrarProduccion(fechaProduccion, idPedido)
 
             ' Registrar empleados en la producción
             For Each item As String In lstEmpleadosAsignados.Items

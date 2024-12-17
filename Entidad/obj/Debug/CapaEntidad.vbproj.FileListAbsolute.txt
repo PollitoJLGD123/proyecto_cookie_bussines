@@ -17,3 +17,13 @@ C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Cap
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.dll
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.xml
 C:\Users\Jose Luis\Downloads\SistemaPedidos\SistemaPedidos\Entidad\obj\Debug\Entidad.pdb
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\bin\Debug\Entidad.dll
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\bin\Debug\Entidad.pdb
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\bin\Debug\Entidad.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.AssemblyReference.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\Entidad.Resources.resources
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\Entidad.dll
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\Entidad.xml
+E:\UNT\Ciclo 06\DATOS\Recuperacion\SistemaPedidos\Entidad\obj\Debug\Entidad.pdb
